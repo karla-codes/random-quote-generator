@@ -7,7 +7,7 @@ project 1 - A Random Quote Generator
 // Check the "Project Resources" section of the project instructions
 // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
-// array that holds at least 5 objects with quote info
+// array that holds at least 5 objects with quote + quote info
 const quotes = [
   {
     quote:
@@ -80,7 +80,7 @@ function getRandomQuote(arr) {
 /**
  * Generates random color
  *
- * @returns Random color and updates body background color
+ * @returns {string} Random color and updates body background color
  */
 
 function updateColor() {
